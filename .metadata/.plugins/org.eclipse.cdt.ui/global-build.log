@@ -1,0 +1,12 @@
+13:11:17 **** Rebuild of configuration Debug for project rotate_right ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o rotate_right.exe main.o 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.3.0/../../../../i686-pc-mingw32/lib/libmingw32.a(lib32_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x39): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+13:12:54 **** Incremental Build of configuration Debug for project rotate_right ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o rotate_right.exe main.o 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.3.0/../../../../i686-pc-mingw32/lib/libmingw32.a(lib32_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x39): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
